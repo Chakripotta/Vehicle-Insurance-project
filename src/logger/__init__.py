@@ -20,7 +20,7 @@ def configure_logger():
     Configures logging with a rotating file handler and a console handler.
     """
     # Create a custom logger
-    logger = logging.getLogger()
+    logger = logging.getLoggerS()
     logger.setLevel(logging.DEBUG)
     
     # Define formatter
